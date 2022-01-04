@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class MainBMI {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your Name: ");
+        String name = sc.nextLine();
+        System.out.println("Enter your weight (kg) = ");
+        double weight = sc.nextDouble();
+        System.out.println("Enter your height (meter) = ");
+        double height = sc.nextDouble();
+
+        double result = BodyMassIndex.calculateBodyMassIndex(weight,height);
+        System.out.println("BMI = " + result + " кg/м");
+        System.out.println("==================================");
+        BodyMassIndex.printResult(name, weight, height, result);
+    }
+}
