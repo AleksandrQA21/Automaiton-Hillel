@@ -4,27 +4,27 @@ import java.util.Scanner;
 
 public class Lesson4 {
     public static void main(String[] args) {
-//        for (int i = 1; i <= 100 ; i++) {
-//            if (i % 7 == 0){
-//                System.out.print(i);
-//                System.out.print(" ");
-//            }
-//        }
+        for (int i = 1; i <= 100 ; i++) {
+            if (i % 7 == 0){
+                System.out.print(i);
+                System.out.print(" ");
+            }
+        }
 
-//        int i = 0;
-//
-//        while (i <= 10) {
-//            System.out.print(i);
-//            System.out.print(" ");
-//            i++;
-//        }
+        int i = 0;
+
+        while (i <= 10) {
+            System.out.print(i);
+            System.out.print(" ");
+            i++;
+        }
 
 
-//        do {
-//            i++;
-//            System.out.print(i);
-//            System.out.print(" ");
-//        } while (i < 10);
+        do {
+            i++;
+            System.out.print(i);
+            System.out.print(" ");
+        } while (i < 10);
 
         Scanner sc = new Scanner(System.in);
         int expectednumber = sc.nextInt();
